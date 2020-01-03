@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "homepage layout",
+    "startedAt" : 1577968014910,
+    "endedAt" : 1577968014910,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 8,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 13
+    },
+    "testId" : "1-homepage-layout",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}
