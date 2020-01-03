@@ -1,3 +1,4 @@
+package com.progressbook.test;
 import com.galenframework.api.Galen;
 import com.galenframework.reports.GalenTestInfo;
 import com.galenframework.reports.HtmlReportBuilder;
@@ -15,7 +16,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class GalenExampleTest
+public class HomePageTest
 {
     private WebDriver driver;
 
