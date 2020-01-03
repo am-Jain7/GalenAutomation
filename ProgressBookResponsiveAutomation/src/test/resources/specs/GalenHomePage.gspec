@@ -66,8 +66,8 @@
 = student information logo section =
    student_information_logo:
        width 333px
-       height 60px 
+       height 70px 
        width 24 % of screen/width
-       near grade_book_logo 10px bottom 
+       near grade_book_logo 20px bottom 
        
                             

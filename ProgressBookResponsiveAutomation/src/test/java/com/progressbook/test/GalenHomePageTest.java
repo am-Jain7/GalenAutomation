@@ -29,7 +29,7 @@ public class GalenHomePageTest
       
         driver = new ChromeDriver();
         //Set the browser size for desktop
-//        driver.manage().window().setSize(new Dimension(1200, 800));
+        //driver.manage().window().setSize(new Dimension(1200, 800));
         driver.manage().window().maximize();
         driver.get("https://demo-ca.progressbook.com/");
         driver.findElement(By.id("user")).sendKeys("Master1");

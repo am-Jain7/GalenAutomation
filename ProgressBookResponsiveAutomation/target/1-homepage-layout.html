@@ -13,8 +13,8 @@ var reportData = {
   "report" : {
     "nodes" : [ {
       "name" : "Check homepage layout",
-      "status" : "info",
-      "time" : 1578045443696,
+      "status" : "error",
+      "time" : 1578048382633,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
@@ -336,12 +336,13 @@ var reportData = {
             "name" : "width 333px",
             "highlight" : [ "student_information_logo" ]
           }, {
-            "status" : "info",
+            "status" : "error",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 69
             },
-            "name" : "height 60px",
+            "name" : "height 70px",
+            "errors" : [ "\"student_information_logo\" height is 60px instead of 70px" ],
             "highlight" : [ "student_information_logo" ]
           }, {
             "status" : "info",
@@ -352,12 +353,13 @@ var reportData = {
             "name" : "width 24 % of screen/width",
             "highlight" : [ "student_information_logo" ]
           }, {
-            "status" : "info",
+            "status" : "error",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 71
             },
-            "name" : "near grade_book_logo 10px bottom",
+            "name" : "near grade_book_logo 20px bottom",
+            "errors" : [ "\"student_information_logo\" is 10px bottom instead of 20px" ],
             "highlight" : [ "student_information_logo", "grade_book_logo" ]
           } ]
         } ]
@@ -388,7 +390,7 @@ var reportData = {
           "area" : [ 10, 140, 333, 60 ]
         }
       },
-      "screenshot" : "layout-2-screenshot.png",
+      "screenshot" : "layout-1-screenshot.png",
       "type" : "layout"
     } ]
   }
