@@ -1,9 +1,38 @@
-
-@objects
-  
+@objects  
    main_logo css .banner-logo
-
-= Login Logo section =
+   login_logo css .logo
+   domain css #domain
+   user_name css #user
+   login_password css #password
+   login_button xpath (//*[@type='submit'])[1]
+   welcome_text xpath //*[text()='Welcome to the ']
+   
+= Main Logo section =
    main_logo:
        width 170px
-       height 36px 
+       height 36px
+       width 12% of screen/width
+       
+   login_logo:
+          below main_logo 33px
+          above main_logo 31px
+          image file ProgressBookLogo.png, error 12px
+          image file ProgressBookLogo.png, error 10%
+          image file ProgressBookLogo.png, error 25%
+         
+   user_name:
+    above login_password 40px
+   
+   login_password:
+    below user_name 40px
+   
+   login_button:
+    color-scheme 10% white, 4 to 5 % black, < 30% #f845b7
+    near login_password 500px top, 100px left, 100px bottom
+   
+   welcome_text:
+    css font-size is "48px"
+    css font-family contains "Helvetica"
+    css font-family ends "sans-serif"
+    css font-family contains "Arial"
+    css font-family matches ".*Arial.*"

@@ -15,7 +15,8 @@
        width 203px
        height 45px 
        near user_icon 1088px left
-       width 14 % of screen/width  
+       width 14 % of screen/width
+         
 
 = Homepage user icon section =
    user_icon:
@@ -37,8 +38,8 @@
        height 60px 
        width 24 % of screen/width
        near grade_book_logo 10px left 
-       near special_services_classic_logo 10px top 
-       
+       near special_services_classic_logo 10px top
+             
       
 = grade book logo section =
    grade_book_logo:
@@ -61,7 +62,6 @@
        height 60px 
        width 24 % of screen/width
        near data_map_logo 10px bottom 
-       near student_information_logo 10px left  
        
 = student information logo section =
    student_information_logo:
@@ -69,6 +69,5 @@
        height 60px 
        width 24 % of screen/width
        near grade_book_logo 10px bottom 
-       near special_services_classic_logo 10px right 
        
                             
