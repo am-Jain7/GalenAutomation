@@ -15,9 +15,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by can on 29/01/17.
- */
 public class GalenExampleTest
 {
     private WebDriver driver;
@@ -25,12 +22,12 @@ public class GalenExampleTest
     @Before
     public void setUp()
     {
-        //Create a Chrome Driver
+      
         driver = new ChromeDriver();
         //Set the browser size for desktop
         driver.manage().window().setSize(new Dimension(1200, 800));
         //Go to swtestacademy.com
-        driver.get("http://www.swtestacademy.com/");
+        driver.get("https://demo-ca.progressbook.com/");
     }
 
     @Test
