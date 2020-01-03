@@ -1,0 +1,9 @@
+
+@objects
+  
+   main_logo css .banner-logo
+
+= Login Logo section =
+   main_logo:
+       width 170px
+       height 36px 

@@ -22,7 +22,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class LoginPageTest
+public class GalenLoginPageTest
 {
     private WebDriver driver;
 
@@ -38,11 +38,11 @@ public class LoginPageTest
     }
 
     @Test
-    public void loginLayoutTest() throws IOException
+    public void progressbookLoginLayoutTest() throws IOException
     {
 //        Create a layoutReport object
 //        checkLayout function checks the layout and returns a LayoutReport object
-        LayoutReport layoutReport = Galen.checkLayout(driver, "specs/LoginPage.gspec", Arrays.asList("desktop"));
+        LayoutReport layoutReport = Galen.checkLayout(driver, "specs/GalenLoginPage.gspec", Arrays.asList("desktop"));
 
         //Create a tests list
         List<GalenTestInfo> tests = new LinkedList<GalenTestInfo>();

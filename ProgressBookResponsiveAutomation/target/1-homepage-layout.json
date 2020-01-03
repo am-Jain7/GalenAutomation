@@ -5,13 +5,13 @@
     "nodes" : [ {
       "name" : "check homepage layout",
       "status" : "error",
-      "time" : 1578028838413,
+      "time" : 1578032346327,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
         "name" : "Home Page",
         "place" : {
-          "filePath" : "specs/LoginPage.gspec",
+          "filePath" : "specs/GalenHomePage.gspec",
           "lineNumber" : 11
         },
         "objects" : [ {
@@ -19,7 +19,7 @@
           "specs" : [ {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 16
             },
             "name" : "inside screen 10px top",
@@ -28,7 +28,7 @@
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 17
             },
             "name" : "inside screen 10px left",
@@ -37,7 +37,7 @@
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 18
             },
             "name" : "inside screen 10px right",
@@ -49,7 +49,7 @@
           "specs" : [ {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 23
             },
             "name" : "below header 31px",
@@ -58,7 +58,7 @@
           }, {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 25
             },
             "name" : "image file sw-logo.png, error %5",
@@ -70,7 +70,7 @@
           "specs" : [ {
             "status" : "error",
             "place" : {
-              "filePath" : "specs/LoginPage.gspec",
+              "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 35
             },
             "name" : "above follow-us-box 20px",
