@@ -1,17 +1,17 @@
 {
   "tests" : [ {
-    "name" : "Login page layout",
-    "startedAt" : 1578034009646,
-    "endedAt" : 1578034009646,
-    "failed" : true,
+    "name" : "Homepage layout",
+    "startedAt" : 1578042733381,
+    "endedAt" : 1578042733381,
+    "failed" : false,
     "statistic" : {
-      "passed" : 0,
-      "errors" : 6,
+      "passed" : 35,
+      "errors" : 0,
       "warnings" : 0,
-      "total" : 6
+      "total" : 35
     },
-    "testId" : "1-login-page-layout",
-    "failed" : true,
-    "duration" : 0
+    "testId" : "1-homepage-layout",
+    "duration" : 0,
+    "failed" : false
   } ]
 }

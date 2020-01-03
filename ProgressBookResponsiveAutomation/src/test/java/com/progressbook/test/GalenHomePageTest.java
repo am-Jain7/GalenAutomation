@@ -21,7 +21,7 @@ import java.util.List;
 
 public class GalenHomePageTest
 {
-    private WebDriver driver;
+    public WebDriver driver;
 
     @Before
     public void setUp() throws InterruptedException
@@ -31,15 +31,13 @@ public class GalenHomePageTest
         //Set the browser size for desktop
 //        driver.manage().window().setSize(new Dimension(1200, 800));
         driver.manage().window().maximize();
-
         driver.get("https://demo-ca.progressbook.com/");
         driver.findElement(By.id("user")).sendKeys("Master1");
         driver.findElement(By.id("password")).sendKeys("QA@SA6770");
         driver.findElement(By.id("domain")).sendKeys("SAAutomate");
         driver.findElement(By.id("domain")).sendKeys("SAAutomate");
         driver.findElement(By.xpath("//button[@stateful-button='isLocalLogin']")).click();
-//		Button domain = new Button("id=domain");
-//		Button domainName = new Button("//option[@value='SAAutomate']");
+        Thread.sleep(5000);
     }
 
     @Test
@@ -70,7 +68,7 @@ public class GalenHomePageTest
 //        If layoutReport has errors Assert Fail
         if (layoutReport.errors() > 0)
         {
-            Assert.fail("Layout test failed");
+            Assert.fail("Homepage layout test failed");
         }
     }
 

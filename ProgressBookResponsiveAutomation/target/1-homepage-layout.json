@@ -1,85 +1,400 @@
 {
   "testId" : "1-homepage-layout",
-  "name" : "homepage layout",
+  "name" : "Homepage layout",
   "report" : {
     "nodes" : [ {
-      "name" : "check homepage layout",
-      "status" : "error",
-      "time" : 1578032346327,
+      "name" : "Check homepage layout",
+      "status" : "info",
+      "time" : 1578042733381,
       "includedTags" : [ "desktop" ],
       "excludedTags" : [ ],
       "sections" : [ {
-        "name" : "Home Page",
+        "name" : "Homepage Logo section",
         "place" : {
           "filePath" : "specs/GalenHomePage.gspec",
-          "lineNumber" : 11
+          "lineNumber" : 13
         },
         "objects" : [ {
-          "name" : "header",
+          "name" : "main_logo",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "width 203px",
+            "highlight" : [ "main_logo" ]
+          }, {
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 16
             },
-            "name" : "inside screen 10px top",
-            "errors" : [ "\"header\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "height 45px",
+            "highlight" : [ "main_logo" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 17
             },
-            "name" : "inside screen 10px left",
-            "errors" : [ "\"header\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "near user_icon 1088px left",
+            "highlight" : [ "main_logo", "user_icon" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 18
             },
-            "name" : "inside screen 10px right",
-            "errors" : [ "\"header\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "width 14 % of screen/width",
+            "highlight" : [ "main_logo" ]
           } ]
-        }, {
-          "name" : "sw-logo",
+        } ]
+      }, {
+        "name" : "Homepage user icon section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 20
+        },
+        "objects" : [ {
+          "name" : "user_icon",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "width 65px",
+            "highlight" : [ "user_icon" ]
+          }, {
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 23
             },
-            "name" : "below header 31px",
-            "errors" : [ "\"sw-logo\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "height 32px",
+            "highlight" : [ "user_icon" ]
           }, {
-            "status" : "error",
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "near main_logo 1088px  right",
+            "highlight" : [ "user_icon", "main_logo" ]
+          }, {
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
               "lineNumber" : 25
             },
-            "name" : "image file sw-logo.png, error %5",
-            "errors" : [ "\"sw-logo\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "width 4 % of screen/width",
+            "highlight" : [ "user_icon" ]
           } ]
-        }, {
-          "name" : "nav-menu",
+        } ]
+      }, {
+        "name" : "central admin heading section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 27
+        },
+        "objects" : [ {
+          "name" : "central_admin",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/GalenHomePage.gspec",
-              "lineNumber" : 35
+              "lineNumber" : 29
             },
-            "name" : "above follow-us-box 20px",
-            "errors" : [ "\"nav-menu\" is absent on page" ],
-            "highlight" : [ ]
+            "name" : "width 85px",
+            "highlight" : [ "central_admin" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 30
+            },
+            "name" : "height 16px",
+            "highlight" : [ "central_admin" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "width 6 % of screen/width",
+            "highlight" : [ "central_admin" ]
+          } ]
+        } ]
+      }, {
+        "name" : "data map logo section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 34
+        },
+        "objects" : [ {
+          "name" : "data_map_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "width 333px",
+            "highlight" : [ "data_map_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "height 60px",
+            "highlight" : [ "data_map_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "width 24 % of screen/width",
+            "highlight" : [ "data_map_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "near grade_book_logo 10px left",
+            "highlight" : [ "data_map_logo", "grade_book_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "near special_services_classic_logo 10px top",
+            "highlight" : [ "data_map_logo", "special_services_classic_logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "grade book logo section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 43
+        },
+        "objects" : [ {
+          "name" : "grade_book_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 45
+            },
+            "name" : "width 333px",
+            "highlight" : [ "grade_book_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 46
+            },
+            "name" : "height 60px",
+            "highlight" : [ "grade_book_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 47
+            },
+            "name" : "width 24 % of screen/width",
+            "highlight" : [ "grade_book_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 48
+            },
+            "name" : "near special_services_logo 10px left",
+            "highlight" : [ "grade_book_logo", "special_services_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 49
+            },
+            "name" : "near data_map_logo 10px right",
+            "highlight" : [ "grade_book_logo", "data_map_logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "special services logo section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 51
+        },
+        "objects" : [ {
+          "name" : "special_services_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 53
+            },
+            "name" : "width 333px",
+            "highlight" : [ "special_services_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 54
+            },
+            "name" : "height 60px",
+            "highlight" : [ "special_services_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "width 24 % of screen/width",
+            "highlight" : [ "special_services_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 56
+            },
+            "name" : "near grade_book_logo 10px right",
+            "highlight" : [ "special_services_logo", "grade_book_logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "special services classic logo section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 58
+        },
+        "objects" : [ {
+          "name" : "special_services_classic_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 60
+            },
+            "name" : "width 333px",
+            "highlight" : [ "special_services_classic_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "height 60px",
+            "highlight" : [ "special_services_classic_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 62
+            },
+            "name" : "width 24 % of screen/width",
+            "highlight" : [ "special_services_classic_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 63
+            },
+            "name" : "near data_map_logo 10px bottom",
+            "highlight" : [ "special_services_classic_logo", "data_map_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 64
+            },
+            "name" : "near student_information_logo 10px left",
+            "highlight" : [ "special_services_classic_logo", "student_information_logo" ]
+          } ]
+        } ]
+      }, {
+        "name" : "student information logo section",
+        "place" : {
+          "filePath" : "specs/GalenHomePage.gspec",
+          "lineNumber" : 66
+        },
+        "objects" : [ {
+          "name" : "student_information_logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 68
+            },
+            "name" : "width 333px",
+            "highlight" : [ "student_information_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 69
+            },
+            "name" : "height 60px",
+            "highlight" : [ "student_information_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "width 24 % of screen/width",
+            "highlight" : [ "student_information_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 71
+            },
+            "name" : "near grade_book_logo 10px bottom",
+            "highlight" : [ "student_information_logo", "grade_book_logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/GalenHomePage.gspec",
+              "lineNumber" : 72
+            },
+            "name" : "near special_services_classic_logo 10px right",
+            "highlight" : [ "student_information_logo", "special_services_classic_logo" ]
           } ]
         } ]
       } ],
-      "objects" : { },
+      "objects" : {
+        "data_map_logo" : {
+          "area" : [ 10, 70, 333, 60 ]
+        },
+        "grade_book_logo" : {
+          "area" : [ 353, 70, 333, 60 ]
+        },
+        "special_services_logo" : {
+          "area" : [ 696, 70, 333, 60 ]
+        },
+        "main_logo" : {
+          "area" : [ 0, 0, 203, 45 ]
+        },
+        "central_admin" : {
+          "area" : [ 10, 49, 85, 16 ]
+        },
+        "student_information_logo" : {
+          "area" : [ 353, 140, 333, 60 ]
+        },
+        "user_icon" : {
+          "area" : [ 1291, 0, 65, 32 ]
+        },
+        "special_services_classic_logo" : {
+          "area" : [ 10, 140, 333, 60 ]
+        }
+      },
       "screenshot" : "layout-1-screenshot.png",
       "type" : "layout"
     } ]

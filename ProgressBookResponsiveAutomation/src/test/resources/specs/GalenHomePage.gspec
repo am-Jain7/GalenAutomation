@@ -1,35 +1,74 @@
-#Declaring objects with css and xpath locators
+
 @objects
-  header               css     div.fusion-secondary-header
-  sw-logo              css     .fusion-logo-link
-  #Navigation links are multi-line object type. Thus, we add * at the end of its decleration.
-  navigation-links-*   xpath   //ul[@id='menu-main']/li[not((contains(@id,'mobile-menu-item')))]
-  nav-menu             css     div.fusion-secondary-main-menu
-  follow-us-box        xpath   //div[contains(@class,'fusion-alert')][1]
+  
+    main_logo css .header-logo
+    user_icon css #currentUserMenu
+    central_admin xpath //*[text()='CentralAdmin']
+    data_map_logo css .SoftwareAnswers-DataMap-applicationLogo
+	grade_book_logo css .SoftwareAnswers-GradeBook-applicationLogo
+	special_services_logo css .SoftwareAnswers-SpecialServices-applicationLogo
+	special_services_classic_logo css .SoftwareAnswers-SpecialServicesClassic-applicationLogo
+	student_information_logo css .SoftwareAnswers-StudentInformation-applicationLogo
+	
+= Homepage Logo section =
+   main_logo:
+       width 203px
+       height 45px 
+       near user_icon 1088px left
+       width 14 % of screen/width  
 
-#Home Page Tag
-= Home Page =
-  #This is for Desktop
-   @on desktop
-       #Header properties
-       header:
-           inside screen 10px top
-           inside screen 10px left
-           inside screen 10px right
-
-       #Logo properties
-       sw-logo:
-           #31 px below the header
-           below header 31px
-           #Image comparison with %2 precision ratio
-           image file sw-logo.png, error %5
+= Homepage user icon section =
+   user_icon:
+       width 65px
+       height 32px
+       near main_logo 1088px  right
+       width 4 % of screen/width  
        
-       #Each navigation links must be alligned horizontally to each other
-       #itemName -> Current item and nextItem -> Next item
-       @forEach [navigation-links-*] as itemName, next as nextItem
-           ${itemName}:
-               aligned horizontally all ${nextItem}
+= central admin heading section =
+  	central_admin:
+       width 85px
+       height 16px
+       width 6 % of screen/width
 
-       #Navigation menu must be 20px above to the follow us allert box
-       nav-menu:
-           above follow-us-box 20px
+       
+= data map logo section =
+   data_map_logo:
+       width 333px
+       height 60px 
+       width 24 % of screen/width
+       near grade_book_logo 10px left 
+       near special_services_classic_logo 10px top 
+       
+      
+= grade book logo section =
+   grade_book_logo:
+       width 333px
+       height 60px 
+       width 24 % of screen/width
+       near special_services_logo 10px left 
+       near data_map_logo 10px right 
+       
+= special services logo section =
+   special_services_logo:
+       width 333px
+       height 60px 
+       width 24 % of screen/width
+       near grade_book_logo 10px right        
+       
+= special services classic logo section =
+   special_services_classic_logo:
+       width 333px
+       height 60px 
+       width 24 % of screen/width
+       near data_map_logo 10px bottom 
+       near student_information_logo 10px left  
+       
+= student information logo section =
+   student_information_logo:
+       width 333px
+       height 60px 
+       width 24 % of screen/width
+       near grade_book_logo 10px bottom 
+       near special_services_classic_logo 10px right 
+       
+                            
